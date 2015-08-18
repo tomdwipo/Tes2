@@ -146,7 +146,7 @@ public class AddMapActivity extends FragmentActivity implements GoogleMap.OnMapC
         }
 
     }
-
+///
     @Override
     public void onConnectionSuspended(int i) {
 
