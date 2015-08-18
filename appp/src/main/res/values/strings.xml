@@ -11,7 +11,7 @@
     <string name="title_activity_add_route">AddRouteActivity</string>
     <string name="txt_from">From</string>
     <string name="title_activity_add_map">Map</string>
-    <string name="txt_liburan">Liburan itu bukan mitos</string>
+    <string name="txt_liburan">Data</string>
     <string name="title_activity_view_route">Map</string>
     <string name="title_activity_main">MainActivity</string>
 </resources>
