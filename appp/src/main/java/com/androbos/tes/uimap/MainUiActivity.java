@@ -45,9 +45,11 @@ public class MainUiActivity extends BaseActivity implements RecyclerItemClickLis
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_ui);
         ButterKnife.inject(this);
+
 
         realm = Realm.getInstance(this);
 

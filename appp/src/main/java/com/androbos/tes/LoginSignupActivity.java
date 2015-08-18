@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.androbos.tes.uimap.MainUiActivity;
 import com.parse.LogInCallback;
 import com.parse.ParseUser;
 
@@ -51,7 +52,7 @@ public class LoginSignupActivity extends ActionBarActivity {
                                     // If user exist and authenticated, send user to Welcome.class
                                     Intent intent = new Intent(
                                             LoginSignupActivity.this,
-                                            WelcomeActivity.class);
+                                            MainUiActivity.class);
                                     startActivity(intent);
                                     Toast.makeText(getApplicationContext(),
                                             "Successfully Logged in",
